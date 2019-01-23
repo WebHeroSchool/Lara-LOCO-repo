@@ -3,12 +3,12 @@
 font-family: "Font Montserrat";
 font-weight: normal;
     src: url("montserrat-v12-latin-regular.woff") format("woff"),
-         url("montserrat-v12-latin-regular.woff2") format("woff2"),
+         url("montserrat-v12-latin-regular.woff2") format("woff2");
 }
 
 @font-face {
 font-family: "Font Montserrat";
 font-weight: bold;
-    src: url("Montserrat-Bold.woff") format("woff"),
+    src: url("Montserrat-Bold.woff") format("woff");
 }
 
