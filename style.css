@@ -4,9 +4,10 @@ div{
 	box-sizing: border-box;
 }
 
-body {
+html, body {
 	font-family: Montserrat;
 	margin: 0;
+	min-width: 320px;
 }
 header {
 	display: flex;
@@ -420,6 +421,7 @@ main{
 footer{
 	display: flex;
 	position: relative;
+	background: #EBE3D8;
 }
 
 .footer__container {
@@ -427,7 +429,6 @@ footer{
 	height: 900px;
 	left: 0px;
 	top: 1800px;
-	background: #EBE3D8;
 }
 
 .footer__image{
@@ -466,6 +467,10 @@ footer{
 	line-height: 41px;
 	font-size: 40px;
 	margin: 0px;
+}
+
+.header__logo-mobile {
+	display: none;
 }
 
 .footer__block_heading-two{
@@ -537,7 +542,7 @@ footer{
 	left: 1210px;
 	top: 2663px;
 	*/
-	right: 21px;
+	right: 80px;
 	bottom: 28px;
 	display: flex;
 	align-items: flex-end;
@@ -564,13 +569,14 @@ footer{
 	left: 1337px;
 	top: 2677.1px;
 	*/
-	right: 21px;
+	right: 80px;
 	bottom: 6px;
 	display: flex;
-	justify-content: flex-end;}
+	justify-content: flex-end;
+}
 
 .footer__contacts_school{
-	font-size: 8px;
+	font-size: 14px;
 }
 
 @media screen and (max-width: 999px) {
@@ -578,10 +584,7 @@ footer{
 	body {
 	}
 	.header__logo{
-		color: black;
-		position: absolute;
-		left: 26px;
-		top: 14px;
+		display: none;
 	}
 
 	header {
@@ -595,32 +598,51 @@ footer{
 		width: 100%;
 		height: 717.46px;
 		background: url(mobileimage.png) no-repeat;
-		background-size: contain;
+		background-size: cover;
 		flex-wrap: wrap;
 		position: absolute;	
 		clip:rect(70px, auto, auto, 0);
 		z-index: 3;
 	}
 
-	.header__container{
+	.header__logo-mobile {	
+		display: block;
+		font-weight: 500;
+		font-size: 30px;
+		text-align: center; 
+		letter-spacing: 0.07em;
+		color: black;
+		text-decoration: none;
 		position: absolute;
-		top: 420px;
-		left: 27px;
+		top: 14px;
+		left: 26px;
+	}
+
+	.header__container{
 		padding: 0;
-		z-index: 3;
-		width: auto;
-		height: auto;
-		margin: 0;
+	    z-index: 3;
+	    width: 100%;
+	    height: auto;
+	    position: absolute;
+	    left: 0;
+	    bottom: 20px;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    flex-direction: column;
 	}
 
 	.header__heading {
+		bottom: -115px;
+        position: relative;
 		line-height: 51px; 
 		font-size: 50px;
 		width: auto;
+		margin-left: 26px;
 	}
 
 	.header__container-left {
-		background: transparent;
+		display: none;
 		margin: 0px;
 	}
 
@@ -628,7 +650,7 @@ footer{
 		display: flex;
 		justify-content: center;
 		margin: 0;
-		margin-left: -52px;
+		margin-left: 0px;
 		margin-top: 20px;
 	}
 
@@ -637,11 +659,22 @@ footer{
 		margin: 0 0 24px 0;
 		border-style: none;
 		background-color: transparent;
+		position: relative;
+        bottom: -120px;
 	}
 
 
-
-	.header__buttom-arrow, .header__button-readmore_desktop, .header__link, .header__link-text, .header__buttom-arrow, .header__text, .header__container-right, .header__language-button, .header__image, .header__language-arrow, .header__buttom-mouse, .header__buttom-mouseline,  .header__square-contacts, .header__square-contacts_insta, .header__image_insta, .header__square-contacts_vk, .header__square-contacts_fb, .header__image_fb,   .header__image_vk{
+	.header__buttom-arrow, 
+	.header__button-readmore_desktop, 
+	.header__link, .header__link-text, 
+	.header__buttom-arrow, .header__text, 
+	.header__container-right, .header__language-button, 
+	.header__language-arrow, .header__buttom-mouse, 
+	.header__buttom-mouseline,  .header__square-contacts, 
+	.header__square-contacts_insta, .header__image_insta, 
+	.header__square-contacts_vk, .header__square-contacts_fb, 
+	.header__image_fb, .header__image_vk,
+	.header__image {
 		display: none;
 	/* first wrap */
 	}
@@ -651,7 +684,7 @@ footer{
 	}
 
 	.main__container {
-		padding: 10px 27px 52px 29px;
+		padding: 10px 0 52px;
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
@@ -691,6 +724,7 @@ footer{
 	}
 
 	.main__sidebar-heading {
+		width: 285px;
 		line-height: 20px;
 		font-size: 20px;
 		margin: 0px;
@@ -730,7 +764,11 @@ footer{
 		height: 29px;
 	}
 
-	.footer__contacts-container, .footer__contacts-container-school, .main__rectangle-one, .main__rectangle-one-text, .main__rectangle-one-button{
+	.footer__contacts-container, 
+	.footer__contacts-container-school, 
+	.main__rectangle-one, 
+	.main__rectangle-one-text, 
+	.main__rectangle-one-button {
 		display: none;
 	}
 
@@ -752,14 +790,18 @@ footer{
 
 	.footer__container {
 		height: 597px;
-		top: 1200px;
+		top: 0;
+		position: relative;
+		flex-grow: unset;
+		width: 320px;
+		margin: 0 auto;
 	}
 
-	.footer__block{
+	.footer__block {
 		position: absolute;
 		width: 305px;
 		height: 195px;
-		left: 44px;
+		left: 0;
 		top: 274px;
 		background: #FAE8E4;
 		padding: 22px 21px 28px 25px;
@@ -768,29 +810,29 @@ footer{
 		font-weight: bold;
 	}
 
-	.footer__block_heading{
+	.footer__block_heading {
 		line-height: 20px; 
 		font-size: 20px;
 	}
 
-	.footer__block_heading-two{
+	.footer__block_heading-two {
 		line-height: 10px; 
 		font-size: 10px;
 		margin: 5px 0 0 0;
 
 	}
 
-	.footer__block_text{
+	.footer__block_text {
 		line-height: 13px; 
 		font-size: 9px;
 		margin: 12px 0 0 0;
 	}
 
-	.footer__rectangle-one{
+	.footer__rectangle-one {
 		display: none;
 	}
 
-	.footer__rectangle-two{
+	.footer__rectangle-two {
 		width: 260px;
 		height: 37px;
 		border: 1px solid #000000;
@@ -803,7 +845,7 @@ footer{
 	}
 
 	.footer__image{
-		width: 351px; 
+		width: 295px; 
 		height: 261px;
 		margin: 34px 13.16px 302px 12px;
 		z-index: 2;
@@ -823,7 +865,7 @@ footer{
 		width: 140px; 
 		height: 58px;
 		position: absolute;
-		left: 188px;
+		left: 178px;
 		top: 506px;
 		justify-content: space-between;
 		align-items: center;
