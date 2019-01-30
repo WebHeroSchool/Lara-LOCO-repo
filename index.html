@@ -1,116 +1,133 @@
 <!DOCTYPE html>
-<!-- ЧЕКНУТЬ СО ШРИФТАМИ И ЛОКАЦИЕЙ url КАРТИНОК + узнать про наследование для footer__link-text и header link + проверить БЭМ (М особенно) локальный хостинг втф-->
 <html>
   <head>
   <meta charset="utf-8">
    <meta name="viewport" content="width=device-width">
     <title>	Page </title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="fonts.css">
+    <link rel="stylesheet" type="text/css" href="Styles/style.css">
+    <link rel="stylesheet" type="text/css" href="Fonts/fonts.css">
   </head>
   <body>
     <header>
-       <div class='header__burger-menu'> 
-        <div class='header__burger-menu-line'>
-        </div>
-        <div class='header__burger-menu-line'>
-        </div>
-      </div>
-      <div class="header__container-left">
+    	<div class="header__burger-flex">
+	       <div class='header__burger-menu'> 
+	        	<div class='header__burger-menu-line'>
+	        	</div>
+	        	<div class='header__burger-menu-line'>
+	        	</div>
+	     	</div>
+	    </div>
+	    <a href="URL" class='header__logo-mobile'>LOCO</a>	  	  
+	    <div class="header__container-left">
         <div class="header__flex-logo-container">
          <a href="URL" class='header__logo'>LOCO</a>
          <div class="header__container-language">
             <button class='header__language-button'>RU</button>
-           <button class='header__language-arrow'><img class='header__language-arrow' src='arrow0.svg' alt="стрелка-ссылка вправо"></button>
+           <button class='header__language-arrow'><img class='header__language-arrow' src='Images/arrow0.svg' alt="стрелка-ссылка вправо"></button>
          </div>
         </div>
       </div>
-        <div class="header__background-mobile">
-        <img class='header__image' src='header.png' alt="стильная девушка на фото">
-  	     <a href="URL"><span class='header__square-contacts header__square-contacts_insta'><img class='header__image_insta' src='insta1.png' alt="Инстаграм"></span></a>
-  	     <a href="URL"><span class='header__square-contacts header__square-contacts_vk'><img class='header__image_vk' src='vk.svg' alt="Вконтакте"></span></a>
-  	     <a href="URL"><span class='header__square-contacts header__square-contacts_fb'><img class='header__image_fb' src='fb.svg' alt="Фейсбук"></span></a>
-      </div>
-        <a href="URL"><div class='header__buttom-mouse'></div></a>
-        <div class='header__buttom-mouseline'></div>
-  	    <div class='header__container'>
-  	      <h1 class='header__heading'>Новая коллекция</h1>
-  	      <p class='header__text'>Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
-  	      <div class="header__flex-container-links">
-            <button class='header__button-readmore_desktop'>ЧИТАТЬ ДАЛЬШЕ</button>
-            <button class="header__button-readmore_mobile"> <img class='header__readmore_mobile-arrow' src='mobarrow.svg' alt="стрелка-ссылка вниз"></button>
-    	      <a href="URL" class='header__link header__link-text'>ДРУГИЕ ПРЕДЛОЖЕНИЯ</a>
-            <img class='header__buttom-arrow' src='arrow1.svg' alt="стрелка-ссылка вправо">
-          
-          </div>
-  	 </div>
+		  <a href="URL"><span class='header__square-contacts header__square-contacts_insta'><img class='header__image_insta' src='Images/insta1.png' alt="Инстаграм"></span></a>
+	  	  <a href="URL"><span class='header__square-contacts header__square-contacts_vk'><img class='header__image_vk' src='Images/vk.svg' alt="Вконтакте"></span></a>
+	  	  <a href="URL"><span class='header__square-contacts header__square-contacts_fb'><img class='header__image_fb' src='Images/fb.svg' alt="Фейсбук"></span></a>
+	      <a href="URL"><div class='header__buttom-mouse'></div></a>
+	      <div class='header__buttom-mouseline'></div>
+      <div class="header__back-mobile"> </div>
+      <div class="header__image-text-flex">
+        <img class='header__image' src='Images/header.png' alt="стильная девушка на фото">
+        <div class="header__container-flex">
+	  	    <div class='header__container'>
+	  	      <h1 class='header__heading'>Новая коллекция</h1>
+	  	      <p class='header__text'>Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
+	  	      </div>
+	  	      <div class="header__flex-container-links">
+	            <button class='header__button-readmore_desktop'>ЧИТАТЬ ДАЛЬШЕ</button>
+	    	      <a href="URL" class='header__link header__link-text'>ДРУГИЕ ПРЕДЛОЖЕНИЯ</a>
+	            <img class='header__buttom-arrow' src='Images/arrow1.svg' alt="стрелка-ссылка вправо">          
+	          </div>
+	        </div>
+	 </div>
+  	<div class="header__heading-flex_mobile">
+	  	<h1 class='header__heading_mobile'>Новая коллекция</h1>
+	  	<button class="header__button-readmore_mobile"> <img class='header__readmore_mobile-arrow' src='Images/mobarrow.svg' alt="стрелка-ссылка вниз"></button>
+	</div>
     </header>
   <main>
     <div class="main__container">
-	   <div class="main__container-images">
-      <img class='main__image' src='bagzero.png' alt="сумка номер один">
-      <img class='main__image-two' src='bagone.png' alt="сумка номер два">
-    </div>
-      <div class='main__sidebar'> 
-        <h1 class='main__sidebar-heading'>Кожаный клатч</h1>
-        <h2 class='main__sidebar-small-heading'>ОСЕННЯЯ КОЛЛЕКЦИЯ</h2>
-        <p class='main__sidebar-text'>Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
-        <div class='main__flex-container-all'>
-        <div class='main__flex-container'>
-          <span class='main__square main__square_olive'></span>
-          <span class='main__square main__square_red'></span>
-          <span class='main__square main__square_blue'></span>
-          <span class='main__square main__square_green'></span>
-        </div>
-        <p class='main__price'>1990₽</p>
-        </div>
-        <div class='main__rectangle main__rectangle-one'> 
-          <p class='main__rectangle-one-text'><button class='main__rectangle-one-button'>-</button></p>
-          <p class='main__rectangle-one-text'>1</p>
-          <p class='main__rectangle-one-text'><button class='main__rectangle-one-button'>+</button></p>
-        </div>
-        <div class='main__rectangle main__rectangle-two'> 
-  	     <a href="URL" class='main__link'>ДОБАВИТЬ В КОРЗИНУ</a>
-        </div>
-        <div class="main__flex-cont-link-text">
-    <a href="URL" class='main__link main__link-text'>ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
-    <img class='main__buttom-arrow' src='arrow2.svg' alt="стрелка-ссылка вправо">
-        </div>
-      </div>
+	    	<div class="main__image-text-flex">
+	    		<div class="main__image-cont">
+			         <img class='main__image-two' src='Images/bagone.png' alt="сумка номер два">
+			        <img class='main__image' src='Images/bagzero.png' alt="сумка номер один">
+			    </div>
+			    <img class='main__image_mobile' src='Images/bagzero.png' alt="сумка номер один">
+		        <div class='main__sidebar'> 
+			        <h1 class='main__sidebar-heading'>Кожаный клатч</h1>
+			        <h2 class='main__sidebar-small-heading'>ОСЕННЯЯ КОЛЛЕКЦИЯ</h2>
+			        <p class='main__sidebar-text'>Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
+			        <div class='main__flex-container-all'>
+			        <div class='main__flex-container'>
+			          <span class='main__square main__square_olive'></span>
+			          <span class='main__square main__square_red'></span>
+			          <span class='main__square main__square_blue'></span>
+			          <span class='main__square main__square_green'></span>
+			        </div>
+			        <p class='main__price'>1990₽</p>
+			        </div>
+			        <div class='main__rectangle main__rectangle-one'> 
+			          <p class='main__rectangle-one-text'><button class='main__rectangle-one-button'>-</button></p>
+			          <p class='main__rectangle-one-text'>1</p>
+			          <p class='main__rectangle-one-text'><button class='main__rectangle-one-button'>+</button></p>
+			        </div>
+			        <div class='main__rectangle main__rectangle-two'> 
+			  	     <a href="URL" class='main__link'>ДОБАВИТЬ В КОРЗИНУ</a>
+			        </div>
+			      </div>
+			       <div class="main__flex-cont-link-text">
+					    <a href="URL" class='main__link main__link-text'>ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
+					    <img class='main__buttom-arrow' src='Images/arrow2.svg' alt="стрелка-ссылка вправо">
+			        </div>
+	  	    </div>
     </div>
   </main>
   <footer>
 	  <div class="footer__container">
-		  <img class='footer__image' src='footer.png' alt="одежда">
-		  <div class="footer__line"> 
+		<div class="footer__line"> 
       </div>
-      <div class='footer__block'>
-      	<h1 class='footer__block_heading'>Serene Total Look</h1>
-      	<h2 class='footer__block_heading-two'>ОСЕННЯЯ КОЛЛЕКЦИЯ</h2>
-      	<p class='footer__block_text'> Джинсы, свитер, обувь.<br> В комплект также входит пакет ароматного чая и кружка.</p>
-        <div class='footer__rectangle footer__rectangle-one'> 
-      		<p class='footer__rectangle-one-text'><button class='footer__rectangle-one-button'>-</button></p>
-      		<p class='footer__rectangle-one-text'>1</p>
-      		<p class='footer__rectangle-one-text'><button class='footer__rectangle-one-button'>+</button></p>
-    	  </div>
-    	  <div class='footer__rectangle footer__rectangle-two'> 
-    		<a href="URL" class='footer__link'>ДОБАВИТЬ В КОРЗИНУ</a>
-    	  </div>
-    </div>
-    <div class="footer__link-container">
-      <a href="URL" class='footer__link footer__link-text'>ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
-      <img class='footer__buttom-image' src='arrow3.svg' alt="стрелка-ссылка вправо">
-    </div>
-    <div class="footer__contacts-container">
-      <div class="footer__contacts_madein">РАЗРАБОТАНО В
-      </div>
-      <div class="footer__contacts_schoolname">WebHero
-      </div>
-    </div>
-    <div class="footer__contacts-container-school">
-      <div class="footer__contacts_school">School
-      </div>
-    </div>
+      	<div class="footer__container-flex">
+	      	<div class="footer__container-center">
+		      <img class='footer__image' src='Images/footer.png' alt="одежда">
+		      <div class='footer__block'>
+		      	<h1 class='footer__block_heading'>Serene Total Look</h1>
+		      	<h2 class='footer__block_heading-two'>ОСЕННЯЯ КОЛЛЕКЦИЯ</h2>
+		      	<p class='footer__block_text'> Джинсы, свитер, обувь.<br> В комплект также входит пакет ароматного чая и кружка.</p>
+		        <div class='footer__rectangle footer__rectangle-one'> 
+		      		<p class='footer__rectangle-one-text'><button class='footer__rectangle-one-button'>-</button></p>
+		      		<p class='footer__rectangle-one-text'>1</p>
+		      		<p class='footer__rectangle-one-text'><button class='footer__rectangle-one-button'>+</button></p>
+		    	  </div>
+		    	  <div class='footer__rectangle footer__rectangle-two'> 
+		    		<a href="URL" class='footer__link'>ДОБАВИТЬ В КОРЗИНУ</a>
+		    	  </div>
+		    </div>
+		    <div class="footer__link-container">
+		      <a href="URL" class='footer__link footer__link-text'>ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
+		      <img class='footer__buttom-image' src='Images/arrow3.svg' alt="стрелка-ссылка вправо">
+		    </div>
+		</div>
+	 </div>
+
+	<div class="footer__contacts-cont">
+	    <div class="footer__contacts-container">
+	      <div class="footer__contacts_madein">РАЗРАБОТАНО В
+	      </div>
+	      <div class="footer__contacts_schoolname">WebHero
+	      </div>
+	    </div>
+	    <div class="footer__contacts-container-school">
+	      <div class="footer__contacts_school">School
+	      </div>
+	    </div>
+	    </div>
   </div>
 </footer>
 </body>
