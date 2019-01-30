@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<!-- ЧЕКНУТЬ СО ШРИФТАМИ И ЛОКАЦИЕЙ url КАРТИНОК + узнать про наследование для footer__link-text и header link + проверить БЭМ (М особенно) локальный хостинг втф-->
 <html>
   <head>
   <meta charset="utf-8">
    <meta name="viewport" content="width=device-width">
     <title>	Page </title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="fonts.css">
+    <link rel="stylesheet" type="text/css" href="Styles/style.css">
+    <link rel="stylesheet" type="text/css" href="Fonts/fonts.css">
   </head>
   <body>
     <header>
@@ -21,15 +20,16 @@
          <a href="URL" class='header__logo'>LOCO</a>
          <div class="header__container-language">
             <button class='header__language-button'>RU</button>
-           <button class='header__language-arrow'><img class='header__language-arrow' src='arrow0.svg' alt="стрелка-ссылка вправо"></button>
+           <button class='header__language-arrow'><img class='header__language-arrow' src='Images/arrow0.svg' alt="стрелка-ссылка вправо"></button>
          </div>
         </div>
       </div>
-        <div class="header__background-mobile">
-        <img class='header__image' src='header.png' alt="стильная девушка на фото">
-  	     <a href="URL"><span class='header__square-contacts header__square-contacts_insta'><img class='header__image_insta' src='insta1.png' alt="Инстаграм"></span></a>
-  	     <a href="URL"><span class='header__square-contacts header__square-contacts_vk'><img class='header__image_vk' src='vk.svg' alt="Вконтакте"></span></a>
-  	     <a href="URL"><span class='header__square-contacts header__square-contacts_fb'><img class='header__image_fb' src='fb.svg' alt="Фейсбук"></span></a>
+      <a href="URL" class='header__logo-mobile'>LOCO</a>
+        <div class="header__back-mobile"> </div>
+        <img class='header__image' src='Images/header.png' alt="стильная девушка на фото">
+  	     <a href="URL"><span class='header__square-contacts header__square-contacts_insta'><img class='header__image_insta' src='Images/insta1.png' alt="Инстаграм"></span></a>
+  	     <a href="URL"><span class='header__square-contacts header__square-contacts_vk'><img class='header__image_vk' src='Images/vk.svg' alt="Вконтакте"></span></a>
+  	     <a href="URL"><span class='header__square-contacts header__square-contacts_fb'><img class='header__image_fb' src='Images/fb.svg' alt="Фейсбук"></span></a>
       </div>
         <a href="URL"><div class='header__buttom-mouse'></div></a>
         <div class='header__buttom-mouseline'></div>
@@ -38,9 +38,9 @@
   	      <p class='header__text'>Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
   	      <div class="header__flex-container-links">
             <button class='header__button-readmore_desktop'>ЧИТАТЬ ДАЛЬШЕ</button>
-            <button class="header__button-readmore_mobile"> <img class='header__readmore_mobile-arrow' src='mobarrow.svg' alt="стрелка-ссылка вниз"></button>
+            <button class="header__button-readmore_mobile"> <img class='header__readmore_mobile-arrow' src='Images/mobarrow.svg' alt="стрелка-ссылка вниз"></button>
     	      <a href="URL" class='header__link header__link-text'>ДРУГИЕ ПРЕДЛОЖЕНИЯ</a>
-            <img class='header__buttom-arrow' src='arrow1.svg' alt="стрелка-ссылка вправо">
+            <img class='header__buttom-arrow' src='Images/arrow1.svg' alt="стрелка-ссылка вправо">
           
           </div>
   	 </div>
@@ -48,8 +48,8 @@
   <main>
     <div class="main__container">
 	   <div class="main__container-images">
-      <img class='main__image' src='bagzero.png' alt="сумка номер один">
-      <img class='main__image-two' src='bagone.png' alt="сумка номер два">
+      <img class='main__image' src='Images/bagzero.png' alt="сумка номер один">
+      <img class='main__image-two' src='Images/bagone.png' alt="сумка номер два">
     </div>
       <div class='main__sidebar'> 
         <h1 class='main__sidebar-heading'>Кожаный клатч</h1>
@@ -74,14 +74,14 @@
         </div>
         <div class="main__flex-cont-link-text">
     <a href="URL" class='main__link main__link-text'>ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
-    <img class='main__buttom-arrow' src='arrow2.svg' alt="стрелка-ссылка вправо">
+    <img class='main__buttom-arrow' src='Images/arrow2.svg' alt="стрелка-ссылка вправо">
         </div>
       </div>
     </div>
   </main>
   <footer>
 	  <div class="footer__container">
-		  <img class='footer__image' src='footer.png' alt="одежда">
+		  <img class='footer__image' src='Images/footer.png' alt="одежда">
 		  <div class="footer__line"> 
       </div>
       <div class='footer__block'>
@@ -99,7 +99,7 @@
     </div>
     <div class="footer__link-container">
       <a href="URL" class='footer__link footer__link-text'>ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
-      <img class='footer__buttom-image' src='arrow3.svg' alt="стрелка-ссылка вправо">
+      <img class='footer__buttom-image' src='Images/arrow3.svg' alt="стрелка-ссылка вправо">
     </div>
     <div class="footer__contacts-container">
       <div class="footer__contacts_madein">РАЗРАБОТАНО В
