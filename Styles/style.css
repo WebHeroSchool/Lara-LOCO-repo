@@ -965,13 +965,15 @@ footer{
 				}
 
 				.main__sidebar{
-					margin: -100px 0 120px -157px
+					margin: -100px 0 120px -200px;
+					 box-shadow: none;
 				}
 
 				.main__flex-cont-link-text {
 					flex-direction: column;
-				    margin: 500px 0 0 -400px;
+				    margin: 500px 0 0 -250px;
 				    justify-content: unset;
+				    width: 188px;
 
 				}
 
@@ -992,6 +994,7 @@ footer{
 				.footer__link-container{
 				    flex-direction: column;
 				    margin: 150px 0 100px 488px;
+				    width: auto;
 				}
 
 				.footer__buttom-image{
@@ -1008,8 +1011,14 @@ footer{
 
 			}
 
+			@media (min-width: 768px) and (max-width: 915px) {
+				.header__image{
+				    height: 284px;
+				    margin: 109px 0 0 361px;
+				}
+				}
 
-				@media screen and (max-width: 495px) {
+				@media screen and (max-width: 501px) {
 
 					.footer__image{
 						width: auto;
@@ -1032,11 +1041,12 @@ footer{
 						margin-left: 0;
 						font-size: 40px;
 					}
+}
 
+				@media screen and (max-width: 381px) {
+					.main__image-cont{
+					    margin-top: -50px;
+					}
 
-
-
-
-
-				}
+}
 
