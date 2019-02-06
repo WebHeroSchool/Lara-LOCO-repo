@@ -718,7 +718,8 @@ position: relative;
 											margin-left: 50%;
 							    			transform: translateX(-50%);
 							    			font-family: Montserrat;
-
+							    			background: transparent;
+							    			border: 0;
 										}
 
 										.floorone__arrow-mobile{
