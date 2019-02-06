@@ -436,7 +436,7 @@ position: relative;
 .floorthree__image{
 	width: 827px;
     height: auto;
-	margin: 139px 0 140px 88px;
+	margin: 139px 0 0 88px;
 	box-shadow: 0.4em 0.4em 45px rgba(122,122,122,0.3);
 	position: absolute;
 }
