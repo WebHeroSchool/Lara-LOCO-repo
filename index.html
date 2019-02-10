@@ -43,6 +43,7 @@
 	    <div class="floorone__image-mobile"> </div>
 			<main class="floorone__content">
 				<img class='content__image' src='Images/header.png' alt="стильная девушка на фото">
+				<img class='content__image-1066' src='Images/headercut.png' alt="стильная девушка на фото">
 				<div class="content__flex">
 					<div class='content__text-container'>
 						<h1 class='text-container__heading'>Новая коллекция</h1>
@@ -100,7 +101,7 @@
 					        </div>
 				        	<p class='container__price'>1990₽</p>
 				        </div>
-				        <div class="sidebar__rectangles">
+				        <div class="sidebar__rectangles sidebar__rectangles_mob">
 					        <div class='sidebar__rectangle sidebar__rectangle_one'> 
 					          <p class='sidebar__rectangle_one-text'><button class='sidebar__rectangle_one-button'>-</button></p>
 					          <p class='sidebar__rectangle_one-text'>1</p>
@@ -122,36 +123,42 @@
 			</div>        
 	    <!-- третий этаж -->
 
-	    <div class="floorthree">
-	    	
-	    	<img class='floorthree__image' src='Images/footer.png' alt="одежда">
+	    <div class="floorthree__wrapper">
+	    	<div class="floorthree__center-content">
+		    	<img class='floorthree__image' src='Images/footer.png' alt="одежда">
 
-	    	<div class="floorthree__container">
+		    	<div class="floorthree__container">
 
-		    	<div class='floorthree__sidebar'>
-			      	<h2 class='sidebar__heading'>Serene Total Look</h2>
-			      	<h3 class='sidebar__heading_second'>ОСЕННЯЯ КОЛЛЕКЦИЯ</h3>
-			      	<p class='sidebar__text floorthree__sidebar-text'> Джинсы, свитер, обувь.<br> В комплект также входит пакет ароматного чая и кружка.</p>
-			        <div class="sidebar__rectangles">
-				    <div class='sidebar__rectangle sidebar__rectangle_one'> 
-				    	<p class='sidebar__rectangle_one-text'><button class='sidebar__rectangle_one-button'>-</button></p>
-				    	<p class='sidebar__rectangle_one-text'>1</p>
-				    	<p class='sidebar__rectangle_one-text'><button class='sidebar__rectangle_one-button'>+</button></p>
-				    </div>
-				    <div class='sidebar__rectangle sidebar__rectangle_two'> 
-				    	<a href="URL" class='links'>ДОБАВИТЬ В КОРЗИНУ</a>
-				    </div>
-				</div>	
-			</div>
+			    	<div class='floorthree__sidebar'>
+				      	<h2 class='sidebar__heading'>Serene Total Look</h2>
+				      	<h3 class='sidebar__heading_second'>ОСЕННЯЯ КОЛЛЕКЦИЯ</h3>
+				      	<p class='sidebar__text floorthree__sidebar-text'> Джинсы, свитер, обувь.<br> В комплект также входит пакет ароматного чая и кружка.</p>
+				        <div class="sidebar__rectangles">
+					    <div class='sidebar__rectangle sidebar__rectangle_one'> 
+					    	<p class='sidebar__rectangle_one-text'><button class='sidebar__rectangle_one-button'>-</button></p>
+					    	<p class='sidebar__rectangle_one-text'>1</p>
+					    	<p class='sidebar__rectangle_one-text'><button class='sidebar__rectangle_one-button'>+</button></p>
+					    </div>
+					    <div class='sidebar__rectangle sidebar__rectangle_two sidebar__rectangle_mob'> 
+					    	<a href="URL" class='links'>ДОБАВИТЬ В КОРЗИНУ</a>
+					    </div>
+					</div>	
+				</div>
+			
+			    <div class="floorthree__links floorthree__links_mob">
+			        <a href="URL" class='links floorthree__links_mob links__text'>ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
+			        <svg class='svgone' width="110" height="12" viewBox="0 0 110 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+				    <path d="M109.03 6.52929C109.323 6.2364 109.323 5.76152 109.03 5.46863L104.257 0.695674C103.964 0.402781 103.49 0.402782 103.197 0.695676C102.904 0.988571 102.904 1.46344 103.197 1.75634L107.439 5.99897L103.197 10.2416C102.904 10.5345 102.904 11.0094 103.197 11.3023C103.49 11.5952 103.964 11.5952 104.257 11.3023L109.03 6.52929ZM108.5 5.24896L0.5 5.24926L0.5 6.74926L108.5 6.74896L108.5 5.24896Z" fill="black"/>
+				</svg>
+				
+				    <svg  class='svg' width="135" height="12" viewBox="0 0 135 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M134.53 6.53028C134.823 6.23739 134.823 5.76252 134.53 5.46962L129.757 0.696654C129.464 0.403761 128.99 0.403761 128.697 0.696654C128.404 0.989547 128.404 1.46442 128.697 1.75731L132.939 5.99995L128.697 10.2426C128.404 10.5355 128.404 11.0104 128.697 11.3033C128.99 11.5961 129.464 11.5961 129.757 11.3033L134.53 6.53028ZM134 5.24995L0.5 5.24999L0.5 6.74999L134 6.74995L134 5.24995Z" fill="black"/>
 		
-		    <div class="floorthree__links">
-		        <a href="URL" class='links links__text'>ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
-		        <svg width="110" height="12" viewBox="0 0 110 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-			    <path d="M109.03 6.52929C109.323 6.2364 109.323 5.76152 109.03 5.46863L104.257 0.695674C103.964 0.402781 103.49 0.402782 103.197 0.695676C102.904 0.988571 102.904 1.46344 103.197 1.75634L107.439 5.99897L103.197 10.2416C102.904 10.5345 102.904 11.0094 103.197 11.3023C103.49 11.5952 103.964 11.5952 104.257 11.3023L109.03 6.52929ZM108.5 5.24896L0.5 5.24926L0.5 6.74926L108.5 6.74896L108.5 5.24896Z" fill="black"/>
-			    </svg>
-		    </div>
+
+				    </svg>
+			    </div>
+	  		</div>
   		</div>
-  		
 		<div class="footer__schoolcontacts">
 	    	<div class="schoolcontacts__container">
 	     		<div class="schoolcontacts__madein">РАЗРАБОТАНО В
