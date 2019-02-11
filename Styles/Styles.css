@@ -434,7 +434,7 @@ position: relative;
 /* */
 
 .floorthree__wrapper{
-	background: linear-gradient(to right, #EBE3D8 27%, black 27%, black 33%, #EBE3D8 33%);
+	background: linear-gradient(to right, #EBE3D8 27%, black 27%, black 32%, #EBE3D8 32%);
 	overflow: auto;
 }
 
