@@ -961,7 +961,9 @@ position: relative;
 
 										.floorthree__links{
 										    margin: 45px 0 35px 188px;
-											width: 145px;
+											width: 165px;
+											background-color: #EBE3D8;
+											padding: 10px;
 										}
 										.svgone{
 											display: none;
