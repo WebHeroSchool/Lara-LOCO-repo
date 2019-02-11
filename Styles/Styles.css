@@ -86,7 +86,7 @@ html, body {
 
 .floorone__content{
     display: flex;
-    width: 1064px;
+    width: 1100px;
     margin-left: 50%;
     transform: translateX(-50%);
     margin-top: 98px;
@@ -558,24 +558,14 @@ position: relative;
 
 		@media (min-width: 1066px) and (max-width: 1390px) {
 
-				.content__image{
-					display: none;
-				}
-
-				.content__image-1066{
-					display: block;
-					width: 270px;
-					height: 100%;
-					margin: 50px 0 50px 0;
-				    box-shadow: 0.4em 0.4em 45px rgba(122,122,122,0.3);
-
+				.content__image {
+					width: 500px;
 				}
 
 				.floorone__content{
-				    width: 750px;
+				    width: 1100px;
 				    display: flex;
 				    align-items: center;
-				    margin-top: 20px;
 				}
 
 				.content__flex{
