@@ -563,7 +563,7 @@ position: relative;
 	.floorthree__center-content{
 		margin-left: 50%;
     	transform: translateX(-50%);
-    	width: 1204px;
+    	width: 1295px;
 	}
 
 }
@@ -617,9 +617,10 @@ position: relative;
 					margin-left: 0;
 				}
 
-				.floorthree__links{
-				    margin: 200px 0 0 50px;
+				.floorthree__image{
+					margin-left: 20px;
 				}
+
 				.floorthree__center-content{
 					margin-left: 50%;
 			    	transform: translateX(-50%);
@@ -1169,5 +1170,11 @@ position: relative;
 									}
 
 
+										@media screen and (max-width: 350px) {
+											.floorthree__image{
+												width: 85%;
+											}
 
-/* mobile: */
+
+										}
+
