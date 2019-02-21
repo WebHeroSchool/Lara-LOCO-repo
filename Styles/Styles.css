@@ -11,36 +11,36 @@ html, body {
 }
 
 .floorone{
-    background: linear-gradient(to right, black 50%, white 50%);
+	background: linear-gradient(to right, black 50%, white 50%);
 
 }
 
 .floorone__wrapper{
 	background: linear-gradient(to right, black 461px, white 461px);
 	padding: 0 0 41px 52px;
-    max-width: 1440px;
-    margin: 0 auto;
+	max-width: 1440px;
+	margin: 0 auto;
 }
 
 /* область хедер первого этажа */
 
 .header {
 	width: 100%;
-    background: linear-gradient(to right, black 50%, white 50%);
+	background: linear-gradient(to right, black 50%, white 50%);
 	}
 
 .header__nav{
-    display: flex;
-    width: 100%;
-    margin: 0 auto;
-    background: linear-gradient(to right, black 461px, white 461px);
+	display: flex;
+	width: 100%;
+	margin: 0 auto;
+	background: linear-gradient(to right, black 461px, white 461px);
 	padding-bottom: 78px; 
 }
 
 .burger {
 	display: flex;
-    justify-content: flex-end;
-    width: 1350px;
+	justify-content: flex-end;
+	width: 1350px;
 }
 
 .burger__block{
@@ -81,6 +81,7 @@ html, body {
 	justify-content: center;
 	text-align: center;
 	margin: 20px 0 0 238px;
+	cursor: pointer;
 }
 
 .language__button{
@@ -103,9 +104,9 @@ html, body {
 
 
 .main-content{
-    display: flex;
-    width: 81%;
-    margin: 0 auto;
+	display: flex;
+	width: 81%;
+	margin: 0 auto;
 }
 
 .main-content{
@@ -142,7 +143,7 @@ html, body {
 	line-height: 21px;
 	font-size: 15px;
 	color: #000;
-    margin-bottom: 5px;
+	margin-bottom: 5px;
 
 }
 
@@ -199,8 +200,8 @@ html, body {
 
 .floorone__contacts{
 	display: flex;
-    width: 100%;
-    margin: 0 auto;
+	width: 100%;
+	margin: 0 auto;
 }
 
 
@@ -211,7 +212,7 @@ html, body {
 
 .contact{
 	width: 43px;
-    height: 43px;
+	height: 43px;
  	border-radius: 50%;
  	background: white;
 }
@@ -231,24 +232,24 @@ html, body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-    margin-left: 12px;
+	margin-left: 12px;
 }
 
 .contacts__fb{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-    margin-left: 12px;
+	margin-left: 12px;
 }
 
 .mouse{
 	width: 27px;
-    border: 2px solid #000;
-    box-sizing: border-box;
-    border-radius: 15px;
-    margin-top: 85px;
-    margin-left: 500px;
-    background-color: white;
+	border: 2px solid #000;
+	box-sizing: border-box;
+	border-radius: 15px;
+	margin-top: 85px;
+	margin-left: 500px;
+	background-color: white;
 	cursor: pointer;
 }
 
@@ -270,9 +271,9 @@ html, body {
 }
 
 .floortwo__content{
-    display: flex;
-    max-width: 1173px;
-    margin: 0 auto;
+	display: flex;
+	max-width: 1173px;
+	margin: 0 auto;
 }
 
 .sidebar-box{
@@ -286,13 +287,13 @@ html, body {
 }
 
 .images__two{
-    margin: 217px 0 0 0px;
+	margin: 217px 0 0 0px;
 }
 
 .images__one{
-    position: absolute;
-    top: 280px;
-    left: 100px;
+	position: absolute;
+	top: 280px;
+	left: 100px;
 }
 
 .sidebar-box__wrap {
@@ -392,6 +393,7 @@ html, body {
 	height: 44px;
 	border: 1px solid #000;
 	box-sizing: border-box;
+	cursor: pointer;
 }
 
 .boxes__one{
@@ -465,7 +467,7 @@ html, body {
 
 .floorthree__image{
 	width: 827px;
-    height: auto;
+	height: auto;
 	box-shadow: .4em .4em 45px rgba(122,122,122,0.3);
 	position: absolute;
 }
@@ -474,8 +476,8 @@ html, body {
 .sidebar{
 	display: flex;
 	align-items: flex-end;
-    flex-direction: column;
-    position: relative;
+	flex-direction: column;
+	position: relative;
 	z-index: 3;
 	width: 1144px;
 	margin: 0 auto;
@@ -486,15 +488,15 @@ html, body {
 .sidebar__wrap{
 	background: #FAE8E4;
 	padding: 34px 53px 45px 47px;
-    width: 475px;
-    margin-top: 120px;
+	width: 475px;
+	margin-top: 120px;
 }
 .sidebar__wrap .sidebar__text {
 	margin-top: 35px;
 }
 
 .floorthree__links{
-    margin: 37px 0 0 0;
+	margin: 37px 0 0 0;
 }
 
 .readmore-mobile__heading{
@@ -516,13 +518,13 @@ html, body {
 
 .schoolbox{
 	justify-content: flex-end;
-    display: flex;
-    padding: 0 15px;
+	display: flex;
+	padding: 0 15px;
 }
 
 .schoolbox__madein{
-    justify-content: flex-end;
-    display: flex;
+	justify-content: flex-end;
+	display: flex;
 	font-weight: bold;
 	font-size: 12px;
 	margin-top: 4px; 
@@ -581,19 +583,19 @@ html, body {
 	
 			.header__nav{
 				width: 100%
-	    	}
+		 	}
 	
 			.floorone__wrapper{
-    		
-    		}
+	 		
+			}
 
-    		.header{
-    			width: 100%;
-    		}
+	 		.header{
+				width: 100%;
+	  		}
 
-    		.first-box__language{
-    			margin-left: 100px;
-    		}
+			.first-box__language{
+				margin-left: 100px;
+	 		}
 			
 			.burger{
 				width: 100%;
@@ -663,7 +665,7 @@ html, body {
 			
 			.link{
 				width: 440px;
-			    margin: 20px;
+			 	margin: 20px;
 			}
 
 			.link__readmore{
@@ -703,16 +705,16 @@ html, body {
 				}
 
 				.header{
-				    width: 100%; 
+					width: 100%; 
 					background: linear-gradient(to right, black 40%, white 40%);
 				}
 
 				.first-box__language {
-				    margin: 36px 0 0 125px;
+					margin: 36px 0 0 125px;
 				}
 
 				.burger{
-				    width: 100%;
+					width: 100%;
 				}
 
 				.floorone__contacts{
@@ -738,7 +740,7 @@ html, body {
 				}
 
 				.aside__wrapper {
-				    margin-left: 7px;
+					margin-left: 7px;
 				}
 
 				.link__arrow{
@@ -762,7 +764,7 @@ html, body {
 				
 				.link{
 					width: 350px;
-				    margin-left: 18px;
+					margin-left: 18px;
 				}
 
 				.link__readmore{
@@ -789,9 +791,9 @@ html, body {
 				}
 
 				.images__one{
-				    top: 80px;
-				    left: 105px;
-				    width: 425px;
+					top: 80px;
+					left: 105px;
+					width: 425px;
 				}
 
 				.floorthree__links .link__text{
@@ -813,7 +815,7 @@ html, body {
 					width: 205px;
 				}
 				.floorthree__image{
-					width: 700px;	   
+					width: 700px;	
 				}
 
 				.sidebar{
@@ -841,13 +843,13 @@ html, body {
 					}
 
 					.header__nav {
-					    background: unset;
+						background: unset;
 						padding-bottom: 0;
 					}
 
 					.header__container{
-					    max-width: 1350px;
-					    margin: 0 auto;
+						max-width: 1350px;
+						margin: 0 auto;
 					}
 
 					.burger{
@@ -861,10 +863,10 @@ html, body {
 					.floorone__wrapper{
 						background: unset;
 						padding-bottom: 23px; 								
-					    background: url(../Images/mobileimage.png) no-repeat;
-					    background-size: cover;
-					    padding-left: 0;
-				        padding-bottom: 61px;
+						background: url(../Images/mobileimage.png) no-repeat;
+						background-size: cover;
+					 	padding-left: 0;
+						padding-bottom: 61px;
 					}
 
 					.images__two,
@@ -875,18 +877,18 @@ html, body {
 					}
 
 					.link__text{
-					    padding: 5px 15px 5px 15px;
+						padding: 5px 15px 5px 15px;
 						background-color: #EBE3D8;
 					}
 
 					.images__one{
-					    display: block;
-					    width: 224px;
-					    margin: 0;
-					    left: 0;
-					    top: 43px;
-					    margin-left: 50%;
-					    transform: translateX(-50%);
+						display: block;
+						width: 224px;
+						margin: 0;
+						left: 0;
+						top: 43px;
+						margin-left: 50%;
+						transform: translateX(-50%);
 					}
 
 					.floorone-content{
@@ -922,30 +924,30 @@ html, body {
 						font-weight: bold;
 						font-size: 50px;
 						width: auto;
-				    	margin-top: 366px;
+						margin-top: 366px;
 						z-index: 4;
 						max-width: 320px;
 						margin: 0 auto;
-		    			font-family: Montserrat;
-		    			background: transparent;
-		    			border: 0;
-		    			text-align: left;
-		    			margin-top: 363px;
-		    			padding: 0;
-		    			padding-right: 10px;
+						font-family: Montserrat;
+						background: transparent;
+			 			border: 0;
+			 			text-align: left;
+			 			margin-top: 363px;
+			 			padding: 0;
+			 			padding-right: 10px;
 					}
 
 					.readmore-mobile__arrow{
-				    	margin-top: 489px;
-				    	position: absolute; 
+					 	margin-top: 489px;
+					 	position: absolute; 
 						z-index: 5;
-		    			cursor: pointer;
+			 			cursor: pointer;
 					}
 
 					.sidebar__container {
-					    width: auto;
-					    height: auto;
-					    margin-top: 12px;
+						width: auto;
+						height: auto;
+						margin-top: 12px;
 					}
 
 					.sidebar__boxes_mob{
@@ -989,13 +991,13 @@ html, body {
 					}
 
 					.floorthree__image {
-					    width: 94%;
-					    margin: 0 auto;
+						width: 94%;
+						margin: 0 auto;
 						height: auto;
-		    		}
+			 		}
 
-		    		.sidebar-box__wrap{
-		    			padding: 10px 0 52px;
+					.sidebar-box__wrap{
+						padding: 10px 0 52px;
 						display: flex;
 						justify-content: center;
 						flex-direction: column;
@@ -1004,16 +1006,16 @@ html, body {
 						width: 320px; 
 						padding: 15px 36px 25px 31px;
 						margin: 10px 0 52px 0;
-					    margin-left: 50%;
-					    transform: translateX(-50%)
-		    		}
+						margin-left: 50%;
+						transform: translateX(-50%)
+					}
 
-		    		.floorthree{
-		    		    background: linear-gradient(to right, #EBE3D8 27%, black 27%, black 38%, #EBE3D8 38%);
-		    		}
+					.floorthree{
+						background: linear-gradient(to right, #EBE3D8 27%, black 27%, black 38%, #EBE3D8 38%);
+					}
 
-		    		.sidebar__heading{
-		    			width: 285px;
+			 		.sidebar__heading{
+						width: 285px;
 						line-height: 20px;
 						font-size: 20px;
 						margin: 0px;
@@ -1024,7 +1026,7 @@ html, body {
 					}
 
 					.sidebar__square{
-					    width: 23px;
+						width: 23px;
 						height: 23px;	
 					}
 
@@ -1052,10 +1054,10 @@ html, body {
 					}
 
 					.floorthree__box{
-					   width: unset;
-					   margin-top: 35px;
-					   margin-bottom: 0;
-					   padding-left: 12px;
+						width: unset;
+						margin-top: 35px;
+						margin-bottom: 0;
+						padding-left: 12px;
 					}
 
 					.svg{
@@ -1064,18 +1066,18 @@ html, body {
 
 					.sidebar{
 						margin: 0 auto;
-					    margin-top: 35px;
-					    align-items: unset;
-					    transform: unset;	
-					    width: auto;	
+						margin-top: 35px;
+						align-items: unset;
+						transform: unset;	
+						width: auto;	
 					}
 
 					.sidebar__wrap{
 						width: 303px;
 						padding: 24px 22px 29px 28px;
-					    margin: 0 auto;
-					    margin-top: 66%;
-					    transform: unset;
+						margin: 0 auto;
+						margin-top: 66%;
+						transform: unset;
 					}
 				
 					.sidebar__boxes{
@@ -1087,7 +1089,7 @@ html, body {
 					}
 
 					.floorthree__links{
-					    margin: 7% 0 25px 45%;
+						margin: 7% 0 25px 45%;
 						width: 45%;
 						background-color: #EBE3D8;
 						padding: 10px;
