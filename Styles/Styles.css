@@ -11,7 +11,6 @@ html, body {
 }
 
 .header{
-    min-height: 100vh;
 }
 
 .floorone{
@@ -20,11 +19,10 @@ html, body {
 
 .floorone__wrapper{
 	background: linear-gradient(to right, black 461px, white 461px);
-	padding: 0 0 41px 52px;
+	padding: 0 0 41px 0;
 	max-width: 1440px;
 	margin: 0 auto;
-	    min-height: 100vh;
-
+	min-height: calc(100vh - 170px);
 }
 
 /* область хедер первого этажа */
@@ -110,13 +108,10 @@ html, body {
 
 .main-content{
 	display: flex;
-	width: 81%;
+	width: 74%;
 	margin: 0 auto;
 }
 
-.main-content{
-	height: auto;
-}
 
 .aside{
 	display: flex;
@@ -149,7 +144,11 @@ html, body {
 	font-size: 15px;
 	color: #000;
 	margin-bottom: 5px;
+}
 
+.main-content__image{
+	width: 49%;
+	height: 49%;
 }
 
 
@@ -205,8 +204,8 @@ html, body {
 
 .floorone__contacts{
 	display: flex;
-	width: 100%;
 	margin: 0 auto;
+	margin-left: 52px;
 }
 
 
@@ -231,6 +230,10 @@ html, body {
 .contacts__insta-image{
 	width: 18px; 
 	height: 18px;
+}
+
+.images__mob{
+	display: none;
 }
 
 .contacts__vk{
@@ -277,12 +280,11 @@ html, body {
 
 .floortwo__content{
 	display: flex;
-	max-width: 1173px;
 	margin: 0 auto;
 }
 
 .sidebar-box{
-	margin: 168px 0 120px 346px;
+	margin: 168px 0 120px 108px;
 	display: flex;
 	flex-direction: column;
 }
@@ -292,15 +294,9 @@ html, body {
 }
 
 .images__two{
-	margin: 217px 0 0 0px;
+	margin: 32px 0 0 0px;
+	width: 103%;
 }
-
-.images__one{
-	position: absolute;
-	top: 280px;
-	left: 100px;
-}
-
 .sidebar-box__wrap {
 	width: 488px;
 	height: auto;
@@ -367,6 +363,7 @@ html, body {
 	border-radius: 50%;
 	cursor:pointer;
 }
+
 
 .sidebar__square:hover {
 	width: 38px;
@@ -576,8 +573,8 @@ html, body {
 
 	@media screen and (min-width: 1440px) {
 		.header{
-    min-height: 100vh;
-}
+		
+		}
 		.header__nav{
 			width: 1440px;
 		}
@@ -616,19 +613,17 @@ html, body {
 			.floortwo__content{
 				margin: 0 auto;
 				z-index: 3;
+				display: flex;
+				align-items: center;
 			}
 			.sidebar-box{
 				z-index: 3;
-				margin-left: 0;
+				margin-right: 0;
 			}
 
-			.floorone__contacts{
-				width: 100%;
-			}
 
-			.main-content__image {
-				width: 45%;
-				height: 45%;
+			.floortwo{
+				padding: 0 20px;
 			}
 
 			.floorone-content { 
@@ -692,18 +687,6 @@ html, body {
 				margin-left: 270px;
 				margin-top: 50px;
 			}
-
-			.floortwo{
-				padding: 0;
-			}
-
-			.images__one{
-				display: inline-block;
-				top: 245px;
-			}
-			.images__two{
-				margin-top: 150px;
-			}
 		}
  
 			@media screen and (max-width: 999px){
@@ -738,8 +721,9 @@ html, body {
 				}
 
 				.floorone__contacts{
-					width: 100%;
+					margin-left: 0;
 				}
+
 				.header__logo{
 					font-size: 25px;
 				}
@@ -791,25 +775,16 @@ html, body {
 					margin-top: 50px;
 				}
 
-				.images__two{
-					margin-top: 50px;
-					position: absolute;
-					width: 300px;
-				}
-
-				.floortwo{
-					padding: 0 70px;
-				}
-
 				.sidebar-box{
 					z-index: 3;
-					margin: 445px 0 50px 0;
+					margin: 168px 15px 50px 35px;
+					margin-right: 0;
 				}
 
-				.images__one{
-					top: 80px;
-					left: 105px;
-					width: 425px;
+				.sidebar-box__wrap{
+					width: 422px;
+					padding: 40px 35px 44px 35px;
+
 				}
 
 				.floorthree__links .link__text{
@@ -849,7 +824,7 @@ html, body {
 				}
 			}
 
-				@media screen and (max-width: 740px) {
+				@media screen and (max-width: 745px) {
 
 					.header{	
 		  				background: unset;
@@ -887,7 +862,6 @@ html, body {
 						background-size: cover;
 					 	padding-left: 0;
 						padding-bottom: 61px;
-						min-height: 100vh;
 					}
 
 					.images__two,
@@ -902,15 +876,6 @@ html, body {
 						background-color: #EBE3D8;
 					}
 
-					.images__one{
-						display: block;
-						width: 224px;
-						margin: 0;
-						left: 0;
-						top: 43px;
-						margin-left: 50%;
-						transform: translateX(-50%);
-					}
 
 					.floorone-content{
 						display: none;
@@ -928,8 +893,9 @@ html, body {
 					}
 
 					.sidebar-box{
-						margin-top: 255px;
+						margin-top: 0;
 						margin-bottom: 0; 
+						margin: 0 auto;
 					}
 
 
@@ -1033,6 +999,14 @@ html, body {
 
 					.floorthree{
 						background: linear-gradient(to right, #EBE3D8 27%, black 27%, black 38%, #EBE3D8 38%);
+					}
+
+					.images__mob{
+						display: block;
+						width: 60%;
+						height: 60%;
+						margin: 42px auto;
+						margin-bottom: 21px;
 					}
 
 			 		.sidebar__heading{
